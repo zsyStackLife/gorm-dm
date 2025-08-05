@@ -13,7 +13,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/godoes/gorm-dameng/dm8/util"
+	"github.com/zsyStackLife/gorm-dm/dm8/util"
 )
 
 var G2DB g2db

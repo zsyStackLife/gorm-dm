@@ -12,7 +12,7 @@ import (
 	"net"
 	"sync"
 
-	"github.com/godoes/gorm-dameng/dm8/i18n"
+	"github.com/zsyStackLife/gorm-dm/dm8/i18n"
 )
 
 // 发版标记

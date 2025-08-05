@@ -9,7 +9,7 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/godoes/gorm-dameng/dm8/util"
+	"github.com/zsyStackLife/gorm-dm/dm8/util"
 )
 
 var DB2G db2g
