@@ -1,4 +1,4 @@
-module github.com/godoes/gorm-dm
+module github.com/zsyStackLife/gorm-dm
 
 go 1.20
 
