@@ -13,8 +13,8 @@ import (
 )
 
 func main() {
-	_, _ = gorm.Open(dm.Open(dm.BuildDMUrl("username", "paasword", "host:port",
-		map[string]string{"schema": "dbname"})), &gorm.Config{
+	_, _ = gorm.Open(dm.Open(dm.BuildDMUrl("your_dm_db_username", "your_dm_db_paasword", "your_dm_db_host:your_dm_db_port",
+		map[string]string{"schema": "your_dm_db_database_name"})), &gorm.Config{
 		Logger: logger.Default.LogMode(logger.Error)})
 }
 ```
